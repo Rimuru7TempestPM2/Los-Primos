@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Primos Laundry Services | Price List</title>
+    <style>
+        :root {
+            --primary-orange: #e65100;
+            --secondary-blue: #039be5;
+            --text-dark: #333;
+            --light-bg: #fdfdfd;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #eee;
+            margin: 0;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            background: var(--light-bg);
+            max-width: 450px;
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            padding: 25px;
+            border-top: 10px solid var(--primary-orange);
+        }
+
+        .header { text-align: left; margin-bottom: 20px; }
+        
+        .brand-name { 
+            font-size: 26px; 
+            font-weight: 900; 
+            color: #222; 
+            line-height: 1.1;
+            margin: 0;
+        }
+
+        .tagline { 
+            color: var(--primary-orange); 
+            font-weight: bold; 
+            font-style: italic;
+            margin-top: 5px;
+            display: block;
+        }
+
+        h2.price-title {
+            border-bottom: 2px solid #444;
+            display: inline-block;
+            margin: 20px 0 10px 0;
+            letter-spacing: 1px;
+        }
+
+        .category-header {
+            color: var(--primary-orange);
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 15px 0 5px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .item {
+            display: flex;
+            justify-content: space-between;
+            padding: 6px 0;
+            border-bottom: 1px dotted #ccc;
+            font-size: 0.95em;
+        }
+
+        .express {
+            color: var(--secondary-blue);
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .delivery-box {
+            background: #fff3e0;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            border-left: 5px solid var(--primary-orange);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .btn {
+            text-decoration: none;
+            text-align: center;
+            padding: 12px 5px;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+            font-size: 0.85em;
+        }
+
+        .btn-call { background-color: #444; }
+        .btn-wa { background-color: #25d366; }
+
+        .till-section {
+            background: #4caf50;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1 class="brand-name">LOS PRIMOS<br>LAUNDRY SERVICES</h1>
+        <span class="tagline">Laundry today or naked tomorrow</span>
+        <h2 class="price-title">PRICE LIST</h2>
+    </div>
+
+    <div class="category-header">👕 Standard Laundry</div>
+    <div class="item"><span>Wash & Dry</span> <span>50 Ksh/Kg</span></div>
+    <div class="item"><span>Wash, Dry & Fold</span> <span>55 Ksh/Kg</span></div>
+    <div class="item"><span>Wash, Dry, Fold & Iron</span> <span>65 Ksh/Kg</span></div>
+    <div class="item class="express">
+        <span class="express">EXPRESS SERVICE</span> 
+        <span class="express">99 Ksh/Kg</span>
+    </div>
+
+    <div class="category-header">👟 Special Items</div>
+    <div class="item"><span>Shoes</span> <span>100 Ksh per pair</span></div>
+    <div class="item"><span>Carpets</span> <span>Price varies with size</span></div>
+
+    <div class="category-header">🛌 Duvets</div>
+    <div class="item"><span>4×6 (light)</span> <span>350 Ksh</span></div>
+    <div class="item"><span>4×6 (heavy/woolen)</span> <span>450 Ksh</span></div>
+    <div class="item"><span>5×6 (light)</span> <span>500 Ksh</span></div>
+    <div class="item"><span>5×6 (heavy/woolen)</span> <span>550 Ksh</span></div>
+    <div class="item"><span>6×6 (all fabrics)</span> <span>700 Ksh</span></div>
+
+    <div class="delivery-box">
+        <strong>FREE PICKUP & DELIVERY</strong><br>
+        <small>Thika: Runda, Westlands, Pilot, Uti, MKU, Migingo, Bidco, etc.</small>
+    </div>
+
+    <div class="contact-grid">
+        <a href="tel:0708322380" class="btn btn-call">📞 Call 0708...</a>
+        <a href="https://wa.me/254708322380" class="btn btn-wa">💬 WhatsApp</a>
+        <a href="tel:0793834010" class="btn btn-call">📞 Call 0793...</a>
+        <a href="https://wa.me/254793834010" class="btn btn-wa">💬 WhatsApp</a>
+    </div>
+
+    <div class="till-section">
+        Buy Goods Till No: 6918089
+    </div>
+</div>
+
+</body>
+</html>
